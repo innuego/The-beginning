@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca34307-8bd8-4de0-b243-115bc78d5e92" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkEight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HelloWorldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HelloWorldTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/HelloWorldTest.java" root0="SKIP_INSPECTION" />
@@ -49,15 +52,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/davyz/Documents/GitHub/Redir-easy&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/davyz/Documents/GitHub/Redir-easy",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Helloworld">
+}]]></component>
+  <component name="RunManager">
     <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,11 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloworld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeworkEight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="helloworld" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkEight" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworkEight.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkEight" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,10 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomeworkEight.main" />
+        <item itemvalue="JUnit.HomeworkEight" />
+        <item itemvalue="JUnit.Helloworld" />
         <item itemvalue="JUnit.HelloWorldTest" />
         <item itemvalue="JUnit.testHelloWorld" />
-        <item itemvalue="JUnit.helloworld" />
-        <item itemvalue="JUnit.Helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +168,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,23 +17,26 @@ public class HelloWorldTest {
 
         String locationHeader = response.getHeader("Location");
         int statusCode = response.getStatusCode();
+        String location = null;
 
         while (statusCode != 200) {
-            Response response200 = RestAssured
-                    .given()
-                    .redirects()
-                    .follow(false)
-                    .when()
-                    .get(locationHeader)
-                    .andReturn();
-            locationHeader = response200.getHeader("Location");
-            statusCode = response200.getStatusCode();
-            String locationStack = response200.header("Name");
-            if (locationHeader == null) {
-                System.out.println("Боже, храни CRM. Мы прибыли!");
-                System.out.println("Status code "+statusCode);
-                break;
-            } else {
+                Response response200 = RestAssured
+                        .given()
+                        .redirects()
+                        .follow(false)
+                        .when()
+                        .get(locationHeader)
+                        .andReturn();
+                locationHeader = response200.getHeader("Location");
+                if (locationHeader != null)
+                    location = locationHeader;
+                statusCode = response200.getStatusCode();
+                String locationStack = response200.header("Name");
+                if (locationHeader == null) {
+                    System.out.println("Боже, храни CRM. Мы прибыли на "+location);
+                    System.out.println("Status code "+statusCode);
+                    break;
+                } else {
                 System.out.println("Перенаправление на "+locationHeader);}
             System.out.println("Status code "+statusCode);
         }
