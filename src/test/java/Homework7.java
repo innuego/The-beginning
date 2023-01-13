@@ -31,14 +31,13 @@ public class Homework7 {
             if (locationHeader != null)
                 location = locationHeader;
             statusCode = response200.getStatusCode();
-            String locationStack = response200.header("Name");
             if (locationHeader == null) {
                 System.out.println("Боже, храни CRM. Мы прибыли на "+location);
-                System.out.println("Status code "+statusCode);
+                System.out.println("Status code: "+statusCode);
                 break;
             } else {
                 System.out.println("Перенаправление на "+locationHeader);}
-            System.out.println("Status code "+statusCode);
+            System.out.println("Status code: "+statusCode);
         }
     }
 }
